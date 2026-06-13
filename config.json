@@ -1,0 +1,109 @@
+{
+  "category": "modern",
+  "seo": {
+    "title": "Midnight Romance — Undangan Pernikahan",
+    "description": "Undangan pernikahan digital dengan tema Midnight Romance. Informasi acara, konfirmasi kehadiran, dan doa restu.",
+    "ogImage": "/template-midnight-romance/templates/modern/midnight-romance/cover.jpg"
+  },
+  "cover": {
+    "brideName": "Aisha",
+    "groomName": "Raden",
+    "coverImage": "/template-midnight-romance/templates/modern/midnight-romance/cover.jpg",
+    "quote": "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri supaya kamu cenderung dan merasa tenteram kepadanya."
+  },
+  "couple": {
+    "groom": {
+      "name": "Raden",
+      "fullName": "Raden Pratama",
+      "photo": "/template-midnight-romance/templates/modern/midnight-romance/groom.jpg",
+      "father": "Bpk. Surya",
+      "mother": "Ibu Dewi"
+    },
+    "bride": {
+      "name": "Aisha",
+      "fullName": "Aisha Putri",
+      "photo": "/template-midnight-romance/templates/modern/midnight-romance/bride.jpg",
+      "father": "Bpk. Adi",
+      "mother": "Ibu Rina"
+    }
+  },
+  "event": {
+    "akad": {
+      "date": "25 Desember 2026",
+      "time": "09:00 - 10:00 WIB",
+      "venue": "Hotel Indonesia Kempinski",
+      "address": "Jl. M.H. Thamrin No.1, Menteng, Jakarta Pusat"
+    },
+    "reception": {
+      "date": "25 Desember 2026",
+      "time": "10:00 - 16:00 WIB",
+      "venue": "Hotel Indonesia Kempinski",
+      "address": "Jl. M.H. Thamrin No.1, Menteng, Jakarta Pusat"
+    }
+  },
+  "countdown": {
+    "eventDate": "2026-12-25",
+    "label": "Menuju Hari Bahagia"
+  },
+  "loveStory": [
+    {
+      "date": "2019",
+      "title": "Pertemuan Pertama",
+      "description": "Bertemu di acara seminar desain, saling bertukar kontak."
+    },
+    {
+      "date": "2020",
+      "title": "Mulai Dekat",
+      "description": "Semakin sering bertemu dan akhirnya memutuskan untuk bersama."
+    },
+    {
+      "date": "2023",
+      "title": "Bertunangan",
+      "description": "Melangkah ke jenjang yang lebih serius dengan restu keluarga."
+    },
+    {
+      "date": "2025",
+      "title": "Pernikahan",
+      "description": "Mengikat janji suci pernikahan di hadapan Tuhan dan keluarga."
+    }
+  ],
+  "gallery": {
+    "title": "Galeri Foto",
+    "images": [
+      "/template-midnight-romance/templates/modern/midnight-romance/gallery/photo-1.jpg",
+      "/template-midnight-romance/templates/modern/midnight-romance/gallery/photo-2.jpg",
+      "/template-midnight-romance/templates/modern/midnight-romance/gallery/photo-3.jpg",
+      "/template-midnight-romance/templates/modern/midnight-romance/gallery/photo-4.jpg",
+      "/template-midnight-romance/templates/modern/midnight-romance/gallery/photo-5.jpg"
+    ]
+  },
+  "maps": {
+    "akad": {
+      "venue": "Hotel Indonesia Kempinski",
+      "address": "Jl. M.H. Thamrin No.1, Menteng, Jakarta Pusat",
+      "embedUrl": "https://maps.google.com/maps?q=Hotel+Indonesia+Kempinski+Jakarta&output=embed"
+    }
+  },
+  "rsvp": {
+    "formUrl": "https://wa.me/6289697751622?text=Assalamu'alaikum%20Kak%20Raden%20%26%20Aisha,%20saya%20akan%20hadir%20di%20acara%20pernikahan%20kalian",
+    "label": "Konfirmasi Kehadiran",
+    "deadline": "20 Desember 2026"
+  },
+  "gift": {
+    "title": "Wedding Gift",
+    "message": "Doa restu dan kehadiran adalah hadiah terindah bagi kami.",
+    "bank": [
+      {
+        "bank": "BCA",
+        "name": "Raden Pratama & Aisha Putri",
+        "number": "1234567890"
+      }
+    ],
+    "qris": "/template-midnight-romance/templates/modern/midnight-romance/qris.jpg"
+  },
+  "music": {
+    "src": "/template-midnight-romance/templates/modern/midnight-romance/audio/background.mp3",
+    "autoplay": true,
+    "loop": true
+  }
+}
