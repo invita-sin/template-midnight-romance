@@ -38,11 +38,13 @@ export default function TemplateRenderer({ config, guestName }: TemplateRenderer
   const sections = useMemo(() => {
     if (!isOpen) {
       return (
-        <Cover
-          config={config.cover}
-          guestName={guestName}
-          onOpen={handleOpen}
-        />
+        <>
+          <Cover
+            config={config.cover}
+            guestName={guestName}
+            onOpen={handleOpen}
+          />
+        </>
       );
     }
 
