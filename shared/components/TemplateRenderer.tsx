@@ -32,7 +32,7 @@ export default function TemplateRenderer({ config, guestName }: TemplateRenderer
 
   const handleOpen = useCallback(() => {
     setIsOpen(true);
-    document.body.style.overflow = "";
+    document.body.classList.remove("overflow-hidden");
   }, []);
 
   const sections = useMemo(() => {
