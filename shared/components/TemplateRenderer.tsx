@@ -33,6 +33,9 @@ export default function TemplateRenderer({ config, guestName }: TemplateRenderer
   const handleOpen = useCallback(() => {
     setIsOpen(true);
     document.body.classList.remove("overflow-hidden");
+    setTimeout(() => {
+      document.getElementById("couple")?.scrollIntoView({ behavior: "smooth" });
+    }, 100);
   }, []);
 
   const sections = useMemo(() => {
@@ -50,11 +53,6 @@ export default function TemplateRenderer({ config, guestName }: TemplateRenderer
 
     return (
       <>
-        <Cover
-          config={config.cover}
-          guestName={guestName}
-          onOpen={handleOpen}
-        />
         <Couple config={config.couple} />
         <CountdownSection config={config.countdown} />
         <LoveStory stories={config.loveStory} />
